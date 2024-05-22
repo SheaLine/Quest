@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Bungee Spice';
+            src: url('./assets/BungeeSpice-Regular.ttf') format('truetype');
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+        }
+        #description {
+            width: 400px;
+            height: 700px;
+            padding: 10px;
+            margin-left: 50px;
+            background-color: #ffffff;
+            align-items: right;
+        }
+    </style>
+    <title>Platformer Starter Kit</title>
+    <script src="./lib/phaser.js"></script>
+    <script src="./src/Scenes/Load.js"></script>
+    <script src="./src/Scenes/Platformer.js"></script>
+    <script src="./src/Scenes/Won.js"></script>
+    <script src="./src/Scenes/Lost.js"></script>
+    <script src="./src/Sprites/boss.js"></script>
+    <script src="./src/main.js"></script>
+</head>
+<body>
+    <div id="phaser-game"></div>
+    <span id="description"></span>
+</body>
+</html>
