@@ -31,7 +31,7 @@ class Load extends Phaser.Scene {
         this.load.spritesheet('treeHit', 'treeHit (64x32).png', { frameWidth: 64, frameHeight: 32 });
         this.load.spritesheet('turtle', "turtle (44x26).png", { frameWidth: 44, frameHeight: 26 } );
         this.load.image("hive", "Hive.png");
-        this.load.image("hiveHit", "hiveHit.png");
+        this.load.image("hiveHit", "HiveHit.png");
 
         //Boss
         this.load.spritesheet("boss", "boss_sheet.png", {frameWidth: 100, frameHeight: 100});
