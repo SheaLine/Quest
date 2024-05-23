@@ -36,7 +36,7 @@ class Platformer extends Phaser.Scene{
     }
 
     create(){ 
-        document.getElementById('description').innerHTML = '<h2>Controls: </h2>Left Cursor: move left <br> Right Cursor: move right <br> Up Cursor: jump <br> Down Cursor: crouch <br> D: Aim Up <br> Space: shoot <h2>How To Play: </h2>Shoot then enemies to defend yourself. <br> <br> Get to the end of the level and kill the boss and grab the trophy.<h2>GOOD LUCK!!</h2>';
+        document.getElementById('description').innerHTML = '<h2>Controls: </h2>Left Cursor: move left <br> Right Cursor: move right <br> Up Cursor: jump <br> Down Cursor: crouch <br> D: Aim Up <br> Space: shoot <h2>How To Play: </h2>Shoot the enemies to defend yourself. <br> <br> Get to the end of the level and kill the boss and grab the trophy.<h2>GOOD LUCK!!</h2>';
         // map
         this.map = this.add.tilemap("level1", 16, 16, 270, 20);
 
